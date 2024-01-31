@@ -18,7 +18,7 @@ const Orders = () => {
   ));
 
   return (
-    <div className='mt-5 text-center'>
+    <div className='mt-5 text-center mb-5 mb-sm-5'>
       <h2>Your Orders</h2>
       <div className='my-5'>
         <h4>You have Ordered {orderValue2} items</h4>

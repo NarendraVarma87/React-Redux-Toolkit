@@ -13,7 +13,7 @@ const Home = () => {
   }, []);
 
   const cards = products.map(product => (
-    <div className="card col-md-3 mb-3" key={product.id}>
+    <div className="card col-md-3 mb-3 mt-lg-5 mt-sm-5" key={product.id}>
       <img className="card-img-top d-flex justify-content-center align-items-center" src={product.image} alt="Card image cap" style={{ width: "40%" }} />
       <div className="card-body">
         <h5 className="card-title">{product.title}</h5>
