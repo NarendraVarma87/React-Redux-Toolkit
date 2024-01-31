@@ -40,7 +40,7 @@ export default function Cart() {
       </div>
       <div className='d-flex justify-content-center'>
             <button className="btn btn-outline-primary d-flex align-items-center my-3"
-              onClick={() => dispatch(placeOrder())}>Place Order</button>
+              onClick={() => dispatch(placeOrder()) && navigate('/orders')}>Place Order</button>
       </div>
     </div>
   );
