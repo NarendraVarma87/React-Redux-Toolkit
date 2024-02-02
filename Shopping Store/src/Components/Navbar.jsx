@@ -6,7 +6,7 @@ export default function Navbar() {
   const cartCount = useSelector((state) => state.storeSlice.addToCart.length)
   const orderValue = useSelector((state)=> state.storeSlice.orders.length)
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5" id='navBar'>
       <Link to="/" className="navbar-brand h1 mx-2 mx-lg-5">Store</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

@@ -27,12 +27,12 @@ const Home = () => {
   ));
 
   return (
-    <>
-      <h1 className="text-center mt-5">Welcome Home</h1>
-      <div className='row m-3 p-3'>
+    <div className="main-content" style={{ paddingTop: "30px" }}>
+      <h1 className="text-center mt-5 mb-2">Welcome Home</h1>
+      <div className='row p-lg-1 p-md-3 p-sm-3 m-2'>
         {cards}
       </div>
-    </>
+    </div>
   );
 }
 
