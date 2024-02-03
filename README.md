@@ -7,7 +7,6 @@ ShopEasy is an e-commerce platform designed to simplify your online shopping exp
 - Shopping Cart: Easily manage your selected items before checkout.
 - Order Placement: Simple process to place and track orders.
 - Responsive Design: Enjoy a seamless shopping experience across devices.
-- 
 # Technologies Used
  - React for the frontend
  - Redux for state management
